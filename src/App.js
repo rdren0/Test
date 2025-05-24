@@ -66,14 +66,6 @@ const BeetleBarber = () => {
     };
   }, []);
 
-  const styles = {
-    container: {
-      maxWidth: "1200px",
-      margin: "0 auto",
-      padding: "0 2rem",
-    },
-  };
-
   return (
     <div
       style={{
@@ -602,22 +594,22 @@ const BeetleBarber = () => {
           </div>
           <ul className="nav-links">
             <li>
-              <a href="#home">Home</a>
+              <a href="/#home">Home</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="/#about">About</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="/#services">Services</a>
             </li>
             <li>
-              <a href="#gallery">Gallery</a>
+              <a href="/#gallery">Gallery</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="/#contact">Contact</a>
             </li>
             <li>
-              <a href="#contact" className="book-btn">
+              <a href="/#contact" className="book-btn">
                 Book Now
               </a>
             </li>
@@ -657,13 +649,22 @@ const BeetleBarber = () => {
               </p>
             </div>
             <div className="social-links">
-              <a href="#" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/beetlebarber/"
+                aria-label="Instagram"
+              >
                 📷
               </a>
-              <a href="#" aria-label="Facebook">
+              <a
+                href="https://www.facebook.com/beetlebarber"
+                aria-label="Facebook"
+              >
                 📘
               </a>
-              <a href="#" aria-label="Google">
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                aria-label="Google"
+              >
                 ⭐
               </a>
             </div>
