@@ -648,26 +648,6 @@ const BeetleBarber = () => {
                 Sweetheart City.
               </p>
             </div>
-            <div className="social-links">
-              <a
-                href="https://www.instagram.com/beetlebarber/"
-                aria-label="Instagram"
-              >
-                📷
-              </a>
-              <a
-                href="https://www.facebook.com/beetlebarber"
-                aria-label="Facebook"
-              >
-                📘
-              </a>
-              <a
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                aria-label="Google"
-              >
-                ⭐
-              </a>
-            </div>
           </div>
         </div>
       </footer>

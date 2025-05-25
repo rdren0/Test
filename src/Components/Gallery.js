@@ -171,13 +171,6 @@ export const Gallery = () => {
       alt: "Classic scissor cut",
       caption: "Classic Scissor Cut",
     },
-    {
-      id: 6,
-      src: "/path/to/image6.jpg",
-      alt: "Straight razor shave",
-      caption: "Straight Razor Shave",
-    },
-    // Add more images as needed
   ];
 
   const handleImageClick = (image) => {
