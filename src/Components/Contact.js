@@ -12,7 +12,7 @@ export const Contact = () => {
             maxWidth: "480px",
             margin: "0 auto 4rem auto",
             background: "#2c2c2c",
-            border: "2px solid #87ceeb",
+            border: "2px solid #3ebaac",
             borderRadius: "8px",
             overflow: "hidden",
             display: "flex",
@@ -65,7 +65,7 @@ export const Contact = () => {
               rel="noopener noreferrer"
               style={{
                 display: "inline-block",
-                background: "linear-gradient(135deg, #87ceeb)",
+                background: "linear-gradient(135deg, #3ebaac)",
                 color: "#1a1a1a",
                 padding: "20px 40px",
                 borderRadius: "8px",
@@ -75,16 +75,16 @@ export const Contact = () => {
                 textTransform: "uppercase",
                 letterSpacing: "1px",
                 transition: "all 0.3s ease",
-                boxShadow: "0 4px 16px rgb(10, 86, 116)",
+                boxShadow: "0 4px 16px rgb(26, 85, 78)",
                 fontFamily: "Arial, sans-serif",
               }}
               onMouseOver={(e) => {
                 e.target.style.transform = "translateY(-3px)";
-                e.target.style.boxShadow = "0 8px 24px rgb(73, 183, 227)";
+                e.target.style.boxShadow = "0 8px 24px rgb(24, 89, 81)";
               }}
               onMouseOut={(e) => {
                 e.target.style.transform = "translateY(0)";
-                e.target.style.boxShadow = "0 4px 16px rgb(14, 86, 114)";
+                e.target.style.boxShadow = "0 4px 16pxrgb(37, 100, 93)";
               }}
             >
               Book Appointment
@@ -98,7 +98,7 @@ export const Contact = () => {
             <p>
               <a
                 href="https://goo.gl/maps/tCXUsJVuJ9zb85tNA"
-                style={{ color: "#87ceeb", textDecoration: "none" }}
+                style={{ color: "#3ebaac", textDecoration: "none" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -145,7 +145,7 @@ export const Contact = () => {
         >
           <h3
             style={{
-              color: "#87ceeb",
+              color: "#3ebaac",
               fontSize: "2rem",
               marginBottom: "2rem",
               textTransform: "uppercase",
@@ -176,13 +176,13 @@ export const Contact = () => {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                color: "#87ceeb",
+                color: "#3ebaac",
                 textDecoration: "none",
                 transition: "all 0.3s ease",
                 fontSize: "3rem",
               }}
               onMouseOver={(e) => {
-                e.target.style.borderColor = "#87ceeb";
+                e.target.style.borderColor = "#3ebaac";
                 e.target.style.background = "#333";
               }}
               onMouseOut={(e) => {
@@ -210,13 +210,13 @@ export const Contact = () => {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                color: "#87ceeb",
+                color: "#3ebaac",
                 textDecoration: "none",
                 transition: "all 0.3s ease",
                 fontSize: "3rem",
               }}
               onMouseOver={(e) => {
-                e.target.style.borderColor = "#87ceeb";
+                e.target.style.borderColor = "#3ebaac";
                 e.target.style.background = "#333";
               }}
               onMouseOut={(e) => {
@@ -244,13 +244,13 @@ export const Contact = () => {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                color: "#87ceeb",
+                color: "#3ebaac",
                 textDecoration: "none",
                 transition: "all 0.3s ease",
                 fontSize: "3rem",
               }}
               onMouseOver={(e) => {
-                e.target.style.borderColor = "#87ceeb";
+                e.target.style.borderColor = "#3ebaac";
                 e.target.style.background = "#333";
               }}
               onMouseOut={(e) => {

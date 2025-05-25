@@ -77,10 +77,11 @@ const useGalleryStyles = () => {
         fontWeight: "600",
         textShadow: "1px 1px 2px rgba(0,0,0,0.7)",
       },
+
       loadMoreButton: {
         display: "block",
         margin: "0 auto",
-        background: "linear-gradient(135deg, #87ceeb,#87ceeb)",
+        background: "linear-gradient(135deg, #3ebaac)",
         color: "#1a1a1a",
         padding: "15px 30px",
         border: "none",
@@ -218,7 +219,7 @@ export const Gallery = () => {
       <div style={styles.container}>
         <div style={styles.sectionHeader}>
           <h2 style={styles.sectionTitle}>
-            <span style={{ color: "#87ceeb" }}>Client</span> Gallery
+            <span style={{ color: "#3ebaac" }}>Client</span> Gallery
           </h2>
           <p style={styles.sectionSubtitle}>
             Showcasing our finest work and satisfied clients
