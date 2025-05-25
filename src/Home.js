@@ -38,7 +38,10 @@ export const Home = () => {
             Welcome to The Sweetest Barber Suite in the Sweetheart City!
           </p>
           <div className="cta-group">
-            <a href="#contact" className="cta-primary">
+            <a
+              href="https://square.site/book/AEAPGYZE9KXJG/shelsey-sybrandts-loveland-co"
+              className="cta-primary"
+            >
               Book Appointment
             </a>
             <a href="#about" className="cta-secondary">

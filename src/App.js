@@ -609,7 +609,10 @@ const BeetleBarber = () => {
               <a href="/#contact">Contact</a>
             </li>
             <li>
-              <a href="/#contact" className="book-btn">
+              <a
+                href="https://square.site/book/AEAPGYZE9KXJG/shelsey-sybrandts-loveland-co"
+                className="book-btn"
+              >
                 Book Now
               </a>
             </li>
