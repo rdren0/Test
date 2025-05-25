@@ -18,7 +18,7 @@ const useAboutStyles = () => {
       aboutClosing: {
         fontStyle: "italic",
         fontWeight: "600",
-        color: "#d4af37",
+        color: "#87ceeb",
         fontSize: "1.1rem",
         marginTop: "2rem",
       },
@@ -27,7 +27,7 @@ const useAboutStyles = () => {
         width: "100%",
         height: "500px",
         overflow: "hidden",
-        border: "4px solid #d4af37",
+        border: "4px solid #87ceeb",
         borderRadius: "8px",
       },
       aboutImagePhoto: {

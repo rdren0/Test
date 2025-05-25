@@ -123,7 +123,7 @@ const BeetleBarber = () => {
             gap: 12px;
             font-size: 1.6rem;
             font-weight: bold;
-            color: #d4af37;
+            color: #87ceeb;
             letter-spacing: 0.5px;
           }
 
@@ -179,22 +179,22 @@ const BeetleBarber = () => {
           }
 
           .nav-links a:hover {
-            color: #d4af37;
+            color: #87ceeb;
           }
 
           .book-btn {
-            background: linear-gradient(135deg, #d4af37, #b8941f);
+            background: linear-gradient(135deg, #87ceeb);
             color: #1a1a1a !important;
             padding: 12px 24px;
             border-radius: 4px;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+            box-shadow: 0 2px 8px rgb(32, 111, 142);
           }
 
           .book-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 16px rgba(212, 175, 55, 0.4);
+            box-shadow: 0 4px 16px rgba(71, 122, 215, 0.4);
           }
 
           .hero {
@@ -238,7 +238,7 @@ const BeetleBarber = () => {
           }
 
           .hero .accent {
-            color: #d4af37;
+            color: #87ceeb;
             font-style: italic;
           }
 
@@ -259,7 +259,7 @@ const BeetleBarber = () => {
           }
 
           .cta-primary {
-            background: linear-gradient(135deg, #d4af37, #b8941f);
+            background: linear-gradient(135deg, #87ceeb,rgb(41, 135, 172));
             color: #1a1a1a;
             padding: 18px 36px;
             border-radius: 4px;
@@ -269,20 +269,20 @@ const BeetleBarber = () => {
             text-transform: uppercase;
             letter-spacing: 1px;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 16px rgba(212, 175, 55, 0.3);
+            box-shadow: 0 4px 16px rgba(19, 54, 182, 0.3);
             font-family: 'Arial', sans-serif;
           }
 
           .cta-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(212, 175, 55, 0.4);
+            box-shadow: 0 8px 24px rgba(19, 54, 182, 0.3);
           }
 
           .cta-secondary {
             background: transparent;
             color: #f5f5f5;
             padding: 18px 36px;
-            border: 2px solid #d4af37;
+            border: 2px solid #87ceeb;
             border-radius: 4px;
             text-decoration: none;
             font-weight: bold;
@@ -294,7 +294,7 @@ const BeetleBarber = () => {
           }
 
           .cta-secondary:hover {
-            background: #d4af37;
+            background: #87ceeb;
             color: #1a1a1a;
           }
 
@@ -312,7 +312,7 @@ const BeetleBarber = () => {
           .section-header h2 {
             font-size: 3rem;
             font-weight: bold;
-            color: #d4af37;
+            color: #87ceeb;
             margin-bottom: 1rem;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -349,13 +349,13 @@ const BeetleBarber = () => {
             left: -100%;
             width: 100%;
             height: 3px;
-            background: linear-gradient(90deg, transparent, #d4af37, transparent);
+            background: linear-gradient(90deg, transparent, #87ceeb, transparent);
             transition: left 0.5s ease;
           }
 
           .service-card:hover {
             transform: translateY(-5px);
-            border-color: #d4af37;
+            border-color: #87ceeb;
             background: #333;
           }
 
@@ -366,7 +366,7 @@ const BeetleBarber = () => {
           .service-icon {
             font-size: 3rem;
             margin-bottom: 1.5rem;
-            color: #d4af37;
+            color: #87ceeb;
           }
 
           .service-card h3 {
@@ -404,7 +404,7 @@ const BeetleBarber = () => {
           }
 
           .about-text h2 .accent {
-            color: #d4af37;
+            color: #87ceeb;
             font-style: italic;
           }
 
@@ -424,11 +424,11 @@ const BeetleBarber = () => {
             height: 400px;
             background: linear-gradient(45deg, #1a1a1a 25%, #2c2c2c 25%, #2c2c2c 50%, #1a1a1a 50%, #1a1a1a 75%, #2c2c2c 75%);
             background-size: 20px 20px;
-            border: 4px solid #d4af37;
+            border: 4px solid #87ceeb;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #d4af37;
+            color: #87ceeb;
             font-size: 4rem;
             position: relative;
           }
@@ -440,7 +440,7 @@ const BeetleBarber = () => {
             left: 10px;
             right: 10px;
             bottom: 10px;
-            border: 2px solid #d4af37;
+            border: 2px solid #87ceeb;
           }
 
           .contact {
@@ -465,14 +465,14 @@ const BeetleBarber = () => {
           }
 
           .contact-card:hover {
-            border-color: #d4af37;
+            border-color: #87ceeb;
             background: #333;
           }
 
           .contact-icon {
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: #d4af37;
+            color: #87ceeb;
           }
 
           .contact-card h3 {
@@ -508,7 +508,7 @@ const BeetleBarber = () => {
             display: flex;
             align-items: center;
             gap: 12px;
-            color: #d4af37;
+            color: #87ceeb;
             font-weight: bold;
             font-size: 1.2rem;
           }
@@ -531,15 +531,15 @@ const BeetleBarber = () => {
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #d4af37;
+            color: #87ceeb;
             text-decoration: none;
             transition: all 0.3s ease;
           }
 
           .social-links a:hover {
-            background: #d4af37;
+            background: #87ceeb;
             color: #1a1a1a;
-            border-color: #d4af37;
+            border-color: #87ceeb;
           }
 
           @media (max-width: 768px) {
